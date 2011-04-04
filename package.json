@@ -9,7 +9,7 @@
   "scripts":      {
                     "install":    "make par2",
                     "test":       "make test"
-                  }
+                  },
   "directories":  {
                     "lib":          "./lib"
                     "par2cmdline":  "./par2cmdline"
