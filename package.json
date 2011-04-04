@@ -1,0 +1,16 @@
+{
+  "name":         "par2",
+  "description":  "Par2 monitoring library to be used with par2cmdline.",
+  "version":      "0.0.1",
+  "author":       "Andy Kant <andy@andykant.com>",
+  "homepage":     "https://github.com/andykant/par2",
+  "engines":      [ "node >= 0.5.0" ],
+  "main":         "./lib/par2",
+  "directories":  {
+                    "lib":  "./lib"
+                  },
+  "repository":   {
+                    "type": "git",
+                    "url":  "https://github.com/andykant/par2.git"
+                  }
+}
