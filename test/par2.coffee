@@ -27,7 +27,7 @@ exec 'cp par2cmdline/par2cmdline-0.4* ./test', (err, stdout, stderr) ->
             cleanUp()
           else
             util.log 'SUCCESS: verify'
-            exec 'rm test/par2cmdline-0.4.tar.gz', (err, stdout, stderr) ->
+            fs.unlink 'test/par2cmdline-0.4.tar.gz', (err) ->
               if err
                 util.log 'FAILURE: couldn\'t remove par2cmdline source tar'
                 cleanUp()
